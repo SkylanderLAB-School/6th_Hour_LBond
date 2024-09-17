@@ -1,7 +1,7 @@
 #Name: Logan Bond
 #Class: 6th Hour
 #Assignment: Scenario 1
-#Help from: https://www.pikminwiki.com/Piklopedia_(Pikmin_2) ,
+#Help from: https://www.pikminwiki.com/Piklopedia_(Pikmin_2) , Kyle
 
 # Scenario 1:
 # You are a programmer for a fledgling game developer. Your team lead
@@ -14,37 +14,37 @@
 # are important and the theme of the game.
 
 enemyDict = {
-    "foe1" : {
-        "Name" : "Creeping Chrysanthemum",
-        "Health" : "2500",
-        "Weight" : "10",
+    "Creeping Chrysanthemum" : {
+        "Health" : 2500,
+        "Weight" : 10,
         "Weakness" : "Luring and Swarming"
     },
-    "foe2" : {
-        "Name" : "Gatling Groink",
-        "Health" : "1200",
-        "Weight" : "10",
+    "Gatling Groink" : {
+        "Health" : 1200,
+        "Weight" : 10,
         "Weakness" : "Reds"
     },
-    "foe3" : {
-        "Name" : "Careening Dirigibug",
-        "Health" : "1500",
-        "Weight" : "3",
+    "Careening Dirigibug" : {
+        "Health" : 1500,
+        "Weight" : 3,
         "Weakness" : "Yellows"
     },
-    "foe4" : {
-        "Name" : "Man-at-Legs",
-        "Health" : "2800",
-        "Weight" : "5",
+    "Man-at-Legs" : {
+        "Health" : 2800,
+        "Weight" : 5,
         "Weakness" : "Hiding and Yellows"
     },
-    "foe5" : {
-        "Name" : "Titan Dweevil",
-        "Health" : "5000/6000",
-        "Weight" : "30/30/30/30/1",
+    "Titan Dweevil" : {
+        "Health" : 5000,
+        "Weight" : 1,
         "Weakness" : "Yellows"
     }
 }
 
-enemyDict["foe3"]["Health"] = int(input("Damage Delt:",))
-print(enemyDict[foe3])
+while True:
+    pikkies = input("What enemy do you want to chuck plants at?:")
+    if pikkies in enemyDict:
+        enemyDict[pikkies]["Health"] -= int(input("How much damage is delt?:"))
+        print("Health left:",enemyDict[pikkies]["Health"])
+    if enemyDict[pikkies]["Health"] == 0:
+        break
