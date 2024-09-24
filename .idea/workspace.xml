@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/6th_Hour_LBond.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hello_world.py" afterDir="false" />
+    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="Finished Scenario 1.">
+      <change afterPath="$PROJECT_DIR$/Scenario 2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,25 +22,44 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SkylanderLAB-School/6th_Hour_LBond.git",
-    "accountId": "dbb203e1-dbd4-497d-b115-4071f2c39839"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SkylanderLAB-School&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SkylanderLAB-School/6th_Hour_LBond.git&quot;,
+    &quot;accountId&quot;: &quot;dbb203e1-dbd4-497d-b115-4071f2c39839&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2kkhZI4CsQeuV62TpvFG32zWuKQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.HW1.executor": "Run",
+    "Python.HW2.executor": "Run",
+    "Python.HW3.executor": "Run",
+    "Python.HW4.executor": "Run",
     "Python.Hello_world.executor": "Run",
+    "Python.Playground.executor": "Run",
+    "Python.Scenario 1.executor": "Run",
+    "Python.Scenario 2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
@@ -63,6 +80,101 @@
       <option name="presentableId" value="Default" />
       <updated>1723833535741</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1723834059597</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723834059597</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added HW1">
+      <option name="closed" value="true" />
+      <created>1724093654001</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724093654001</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Finished the assignment">
+      <option name="closed" value="true" />
+      <created>1724352159178</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724352159178</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Finished HW3, and did it mostly correctly">
+      <option name="closed" value="true" />
+      <created>1724871364941</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724871364941</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Began, The Playground...">
+      <option name="closed" value="true" />
+      <created>1725476766442</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725476766442</updated>
+    </task>
+    <task id="LOCAL-00006" summary="learned what IF does">
+      <option name="closed" value="true" />
+      <created>1725563080846</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725563080846</updated>
+    </task>
+    <task id="LOCAL-00007" summary="hfiaw;hgiufhwe">
+      <option name="closed" value="true" />
+      <created>1725648759249</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725648759249</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Did HW4, all in one day, despite missing 3 days!">
+      <option name="closed" value="true" />
+      <created>1726167436008</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1726167436008</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Started Scenario 1 (I should replay Pikmin 2)">
+      <option name="closed" value="true" />
+      <created>1726513600140</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1726513600140</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Finished Scenario 1.">
+      <option name="closed" value="true" />
+      <created>1726599124023</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1726599124023</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Added HW1" />
+    <MESSAGE value="Finished the assignment" />
+    <MESSAGE value="Finished HW3, and did it mostly correctly" />
+    <MESSAGE value="Began, The Playground..." />
+    <MESSAGE value="learned what IF does" />
+    <MESSAGE value="hfiaw;hgiufhwe" />
+    <MESSAGE value="Did HW4, all in one day, despite missing 3 days!" />
+    <MESSAGE value="Started Scenario 1 (I should replay Pikmin 2)" />
+    <MESSAGE value="Finished Scenario 1." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Scenario 1." />
   </component>
 </project>
