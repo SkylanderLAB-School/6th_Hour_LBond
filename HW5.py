@@ -7,6 +7,7 @@ print("Hello World!")
 
 #2. Create a list that contains 3 integers
 numlist = [7,427,6127]
+print(numlist)
 
 #3. Create an if statement that prints out whichever of the three numbers is the highest
 if numlist[0] >= numlist[1] and numlist[2] :
