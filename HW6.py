@@ -9,7 +9,7 @@
 print("Hello World!")
 
 #2. Create a variable named num and assign it a variable.
-num = 7
+num = 21
 
 #3. Create a nested if statement follows this structure:
 
@@ -32,7 +32,7 @@ if num%2 == 0 :
         print(num/2)
         print(num/3)
     else :
-        print(num, "is not divisible by 2")
+        print(num / 2)
         print(num, "is not divisible by 3")
 else :
     if num%3 == 0 :
