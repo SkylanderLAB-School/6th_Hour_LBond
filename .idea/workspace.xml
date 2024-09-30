@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="Finished Scenario 2.">
-      <change afterPath="$PROJECT_DIR$/HW5.py" afterDir="false" />
+    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="Finished HW5.">
+      <change afterPath="$PROJECT_DIR$/HW6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +57,7 @@
     "Python.HW3.executor": "Run",
     "Python.HW4.executor": "Run",
     "Python.HW5.executor": "Run",
+    "Python.HW6.executor": "Run",
     "Python.Hello_world.executor": "Run",
     "Python.Playground.executor": "Run",
     "Python.Scenario 1.executor": "Run",
@@ -169,7 +170,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727204465819</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Finished HW5.">
+      <option name="closed" value="true" />
+      <created>1727462672333</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1727462672333</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Finished HW5.">
+      <option name="closed" value="true" />
+      <created>1727462745034</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1727462745034</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -185,6 +202,7 @@
     <MESSAGE value="Started Scenario 1 (I should replay Pikmin 2)" />
     <MESSAGE value="Finished Scenario 1." />
     <MESSAGE value="Finished Scenario 2." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Scenario 2." />
+    <MESSAGE value="Finished HW5." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished HW5." />
   </component>
 </project>
