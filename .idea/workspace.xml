@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="Added REPLAYABILITY!">
+    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="Always do things the lazy way.">
+      <change afterPath="$PROJECT_DIR$/HW7-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW5.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,22 +51,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.HW1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HW2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HW3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HW4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HW5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HW6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Hello_world.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Playground.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Scenario 1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Scenario 2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.HW1.executor": "Run",
+    "Python.HW2.executor": "Run",
+    "Python.HW3.executor": "Run",
+    "Python.HW4.executor": "Run",
+    "Python.HW5.executor": "Run",
+    "Python.HW6.executor": "Run",
+    "Python.HW7-2.executor": "Run",
+    "Python.HW7.executor": "Run",
+    "Python.Hello_world.executor": "Run",
+    "Python.Playground.executor": "Run",
+    "Python.Scenario 1.executor": "Run",
+    "Python.Scenario 2.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -210,7 +213,31 @@
       <option name="project" value="LOCAL" />
       <updated>1727808038086</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Always do things the lazy way.">
+      <option name="closed" value="true" />
+      <created>1727896035298</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1727896035298</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Always do things the lazy way.">
+      <option name="closed" value="true" />
+      <created>1727896078255</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1727896078255</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Always do things the lazy way.">
+      <option name="closed" value="true" />
+      <created>1727896126294</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1727896126294</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -229,6 +256,7 @@
     <MESSAGE value="Finished HW5." />
     <MESSAGE value="Finished HW6." />
     <MESSAGE value="Added REPLAYABILITY!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added REPLAYABILITY!" />
+    <MESSAGE value="Always do things the lazy way." />
+    <option name="LAST_COMMIT_MESSAGE" value="Always do things the lazy way." />
   </component>
 </project>
