@@ -14,12 +14,12 @@
 #welcome message and increase the integer variable by one. If one of them
 #is false, print an error message telling them which one they are "missing".
 
-import random
+
 import time
 print("Hello World!")
-wifi = random.randint(1,2) == 1
-login = random.randint(1,2) == 1
-admin = random.randint(1,2) == 1
+wifi = True
+login = True
+admin = False
 lognum = 0
 print("Times logged in:", lognum)
 begin = input("Do you want to log in?: ")
