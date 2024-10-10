@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="started S3 - fixed party and pikmin - began combat">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scenario 3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scenario 3.py" afterDir="false" />
-    </list>
+    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="did basic S3 combat - make neater/better later" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -261,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728500798967</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="did basic S3 combat - make neater/better later">
+      <option name="closed" value="true" />
+      <created>1728587147617</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1728587147617</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -284,6 +289,7 @@
     <MESSAGE value="finished HW7, but it is not checked" />
     <MESSAGE value="finished HW7" />
     <MESSAGE value="started S3 - fixed party and pikmin - began combat" />
-    <option name="LAST_COMMIT_MESSAGE" value="started S3 - fixed party and pikmin - began combat" />
+    <MESSAGE value="did basic S3 combat - make neater/better later" />
+    <option name="LAST_COMMIT_MESSAGE" value="did basic S3 combat - make neater/better later" />
   </component>
 </project>
