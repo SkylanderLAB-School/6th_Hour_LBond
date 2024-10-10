@@ -85,31 +85,31 @@ partyDictionary = {
 enemyDict = {
     "Creeping Chrysanthemum" : {
         "Health" : 16,
-        "ATK Mod." : 7,
+        "ATK Mod." :4 ,
         "AC" : 17,
         "Damage" : "1d1 + 12"
     },
     "Gatling Groink" : {
         "Health" : 15,
-        "ATK Mod." : 7,
+        "ATK Mod." : 3,
         "AC" : 17,
         "Damage" : "1d1 + 12"
     },
     "Careening Dirigibug" : {
         "Health" : 10,
-        "ATK Mod." : 7,
+        "ATK Mod." : 1,
         "AC" : 7,
         "Damage" : "1d1 + 12"
     },
     "Man-at-Legs" : {
         "Health" : 20,
-        "ATK Mod." : 7,
+        "ATK Mod." : 5,
         "AC" : 15,
         "Damage" : "1d1 + 12"
     },
     "Titan Dweevil" : {
         "Health" : 25,
-        "ATK Mod." : 7,
+        "ATK Mod." : 2,
         "AC" : 12,
         "Damage" : "1d1 + 12"
     }
@@ -124,9 +124,42 @@ enemyDict = {
 #deal damage
 #enemy turn
 
+atk0 = int(random.randint(1,10))#Gale atk roll, not LaeZel, because she sucks
+atk1 = int(random.randint(1,1) + 12)#Man-At-Legs atk roll, because spider with gun
+hit0 = int(random.randint(1,20) + 4)#Gale hit check
+hit1 = int(random.randint(1,20) + 5)#M-A-L hit check
+dam0 = int(enemyDict["Man-at-Legs"]["Health"] - atk0)
+dam1 = int(partyDictionary["Gale"]["Health"] - atk1)
+print("Gale's damage, if he hits:")
+print(atk0)
+print("---")
+print("Gale's ATK roll:")
+print(hit0)
+print("---")
+print("Man-At-Legs AC:")
+print(enemyDict["Man-at-Legs"]["AC"])
+print("---")
+print("Man-At-Legs health post math crap:")
+if hit0 >= enemyDict["Man-at-Legs"]["AC"]:
+    print(dam0)
+else:
+    print("womp womp, no hit")
 
-Char = input("Who is attacking?:")
-Enemy = input("Who is being attacked?:")
-
+print("                 ")
+print("                 ")
+print("The Man-At-Legs' damage, if it hits:")
+print(atk1)
+print("---")
+print("The Man-At-Legs' ATK roll:")
+print(hit1)
+print("---")
+print("Gale's AC:")
+print(partyDictionary["Gale"]["AC"])
+print("---")
+print("Gale's health post math crap:")
+if hit1 >= partyDictionary["Gale"]["AC"]:
+    print(dam1)
+else:
+    print("womp womp, no hit")
 
 
