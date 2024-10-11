@@ -116,16 +116,12 @@ enemyDict = {
 }
 
 
-#Combat Code Goes Here
-#choose party member
-#choose enemy
-#roll atk
-#roll ac crap
-#deal damage
-#enemy turn
+#Combat Vars
+#---KEY---
+#
 
-atk0 = int(random.randint(1,10))#Gale atk roll, not LaeZel, because she sucks
-atk1 = int(random.randint(1,1) + 12)#Man-At-Legs atk roll, because spider with gun
+atk0 = int(random.randint(1,10))#Gale atk roll
+atk1 = int(random.randint(1,1) + 12)#Man-At-Legs atk roll
 hit0 = int(random.randint(1,20) + 4)#Gale hit check
 hit1 = int(random.randint(1,20) + 5)#M-A-L hit check
 dam0 = int(enemyDict["Man-at-Legs"]["Health"] - atk0)
