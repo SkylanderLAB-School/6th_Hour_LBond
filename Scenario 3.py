@@ -49,7 +49,7 @@ partyDictionary = {
         "Health" : 12,
         "AC" : 17,
         "ATK Mod." : 1,
-        "Damage" : "2d6 + 3",
+        "Damage" : random.randint(2,12) + 3
     },
     "Shadowheart" : {
         "Race" : "Half-Elf",
@@ -58,7 +58,7 @@ partyDictionary = {
         "Health" : 10,
         "AC" : 14,
         "ATK Mod." : 2,
-        "Damage" : "1d6 + 2",
+        "Damage" : random.randint(1,6) + 2
     },
     "Gale" : {
         "Race" : "Human",
@@ -67,7 +67,7 @@ partyDictionary = {
         "Health" : 8,
         "AC" : 14,
         "ATK Mod." : 4,
-        "Damage" : "1d10",
+        "Damage" : random.randint(1,10)
     },
     "Astarion" : {
         "Race" : "High Elf",
@@ -76,7 +76,7 @@ partyDictionary = {
         "Health" : 10,
         "AC" : 14,
         "ATK Mod." : 3,
-        "Damage" : "1d6 + 4",
+        "Damage" : random.randint(1,6) + 4
     }
 }
 
@@ -87,75 +87,144 @@ enemyDict = {
         "Health" : 16,
         "ATK Mod." :4 ,
         "AC" : 17,
-        "Damage" : "1d1 + 12"
+        "Damage" : random.randint(1,1) + 12
     },
     "Gatling Groink" : {
         "Health" : 15,
         "ATK Mod." : 3,
         "AC" : 17,
-        "Damage" : "1d1 + 12"
+        "Damage" : random.randint(1,1) + 12
     },
     "Careening Dirigibug" : {
         "Health" : 10,
         "ATK Mod." : 1,
         "AC" : 7,
-        "Damage" : "1d1 + 12"
+        "Damage" : random.randint(1,1) + 12
     },
     "Man-at-Legs" : {
         "Health" : 20,
         "ATK Mod." : 5,
         "AC" : 15,
-        "Damage" : "1d1 + 12"
+        "Damage" : random.randint(1,1) + 12
     },
     "Titan Dweevil" : {
         "Health" : 25,
         "ATK Mod." : 2,
         "AC" : 12,
-        "Damage" : "1d1 + 12"
+        "Damage" : random.randint(1,1) + 12
     }
 }
 
 
 #Combat Vars
 #---KEY---
+#Ugly Alien - LZ
+#Sus Girl - SH
+#MAGIC - GL
+#Nic Cage - AS
+#Flower - CC
+#Gun Boi - GG
+#Hiroshima - CD
+#Gun Spider - MAL
+#Big Spider - TD
+
+#Party Damage and Hit Checks
+LZATK = int(partyDictionary["LaeZel"]["Damage"])
+LZHIT = int(random.randint(1,20) + partyDictionary["LaeZel"]["ATK Mod."])
+#
+SHATK = int(partyDictionary["Shadowheart"]["Damage"])
+SHHIT = int(random.randint(1,20) + partyDictionary["Shadowheart"]["ATK Mod."])
+#
+GLATK = int(partyDictionary["Gale"]["Damage"])
+GLHIT = int(random.randint(1,20) + partyDictionary["Gale"]["ATK Mod."])
+#
+ASATK = int(partyDictionary["Astarion"]["Damage"])
+ASHIT = int(random.randint(1,20) + partyDictionary["Astarion"]["ATK Mod."])
+#
+#Enemy Damage and Hit Checks
+CCATK = int(enemyDict["Creeping Chrysanthemum"]["Damage"])
+CCHIT = int(random.randint(1,20) + enemyDict["Creeping Chrysanthemum"]["ATK Mod."])
+#
+GGATK = int(enemyDict["Gatling Groink"]["Damage"])
+GGHIT = int(random.randint(1,20) + enemyDict["Gatling Groink"]["ATK Mod."])
+#
+CDATK = int(enemyDict["Careening Dirigibug"]["Damage"])
+CDHIT = int(random.randint(1,20) + enemyDict["Careening Dirigibug"]["ATK Mod."])
+#
+MALATK = int(enemyDict["Man-at-Legs"]["Damage"])
+MALHIT = int(random.randint(1,20) + enemyDict["Man-at-Legs"]["ATK Mod."])
+#
+TDATK = int(enemyDict["Titan Dweevil"]["Damage"])
+TDHIT = int(random.randint(1,20) + enemyDict["Titan Dweevil"]["ATK Mod."])
 #
 
-atk0 = int(random.randint(1,10))#Gale atk roll
-atk1 = int(random.randint(1,1) + 12)#Man-At-Legs atk roll
-hit0 = int(random.randint(1,20) + 4)#Gale hit check
-hit1 = int(random.randint(1,20) + 5)#M-A-L hit check
-dam0 = int(enemyDict["Man-at-Legs"]["Health"] - atk0)
-dam1 = int(partyDictionary["Gale"]["Health"] - atk1)
-print("Gale's damage, if he hits:")
-print(atk0)
-print("---")
-print("Gale's ATK roll:")
-print(hit0)
-print("---")
-print("Man-At-Legs AC:")
-print(enemyDict["Man-at-Legs"]["AC"])
-print("---")
-print("Man-At-Legs health post math crap:")
-if hit0 >= enemyDict["Man-at-Legs"]["AC"]:
-    print(dam0)
-else:
-    print("womp womp, no hit")
+CHA = input("Who is attacking?:")
+ENM = input("Who is being attacked?:")
+if CHA == "Gale":
+    if ENM == "Man-at-Legs":
+        print("Gale's damage, if he hits:")
+        print(GLATK)
+        print("---")
+        print("Gale's ATK roll:")
+        print(GLHIT)
+        print("---")
+        print("Man-At-Legs AC:")
+        print(enemyDict["Man-at-Legs"]["AC"])
+        print("---")
+        print("Man-At-Legs health post math crap:")
+        print(enemyDict["Man-at-Legs"]["Health"] - GLATK)
 
-print("                 ")
-print("                 ")
-print("The Man-At-Legs' damage, if it hits:")
-print(atk1)
-print("---")
-print("The Man-At-Legs' ATK roll:")
-print(hit1)
-print("---")
-print("Gale's AC:")
-print(partyDictionary["Gale"]["AC"])
-print("---")
-print("Gale's health post math crap:")
-if hit1 >= partyDictionary["Gale"]["AC"]:
-    print(dam1)
-else:
-    print("womp womp, no hit")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#dam0 = int(enemyDict["Man-at-Legs"]["Health"] - atk0)
+#dam1 = int(partyDictionary["Gale"]["Health"] - atk1)
+#print("Gale's damage, if he hits:")
+#print()
+#print("---")
+#print("Gale's ATK roll:")
+#print()
+#print("---")
+#print("Man-At-Legs AC:")
+#print(enemyDict["Man-at-Legs"]["AC"])
+#print("---")
+#print("Man-At-Legs health post math crap:")
+#if  >= enemyDict["Man-at-Legs"]["AC"]:
+#    print()
+#else:
+#    print("womp womp, no hit")
+
+#print("                 ")
+#print("                 ")
+#print("The Man-At-Legs' damage, if it hits:")
+#print()
+#print("---")
+#print("The Man-At-Legs' ATK roll:")
+#print()
+#print("---")
+#print("Gale's AC:")
+#print(partyDictionary["Gale"]["AC"])
+#print("---")
+#print("Gale's health post math crap:")
+#if  >= partyDictionary["Gale"]["AC"]:
+#    print()
+#else:
+#    print("womp womp, no hit")
 
 
