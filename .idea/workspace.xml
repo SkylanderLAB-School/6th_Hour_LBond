@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="did basic S3 combat - make neater/better later">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scenario 3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scenario 3.py" afterDir="false" />
-    </list>
+    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="Organized - Did Gale vs. MAL" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -285,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728671357572</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Organized - Did Gale vs. MAL">
+      <option name="closed" value="true" />
+      <created>1728932851926</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1728932851926</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -309,6 +314,7 @@
     <MESSAGE value="finished HW7" />
     <MESSAGE value="started S3 - fixed party and pikmin - began combat" />
     <MESSAGE value="did basic S3 combat - make neater/better later" />
-    <option name="LAST_COMMIT_MESSAGE" value="did basic S3 combat - make neater/better later" />
+    <MESSAGE value="Organized - Did Gale vs. MAL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Organized - Did Gale vs. MAL" />
   </component>
 </project>
