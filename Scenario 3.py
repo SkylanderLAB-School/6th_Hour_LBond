@@ -188,8 +188,8 @@ if CHA == "Gale":
             print("---")
             time.sleep(1.5)
             print("Man-At-Legs health post math crap:")
-            if GLHIT >= enemyDict["Man-at-Legs"]["AC"]:
-                enemyDict["Man-at-Legs"]["Health"] -= GLATK
+            if partyDictionary["Gale"]["ATK Mod."] >= enemyDict["Man-at-Legs"]["AC"]:
+                enemyDict["Man-at-Legs"]["Health"] -= partyDictionary["Gale"]["Damage"]
                 print(enemyDict["Man-at-Legs"]["Health"])
             else:
                 print("ATK did not hit")
@@ -205,11 +205,11 @@ if CHA == "Gale":
             time.sleep(1.5)
             print("                 ")
             print("Man-at-Legs damage, if it hits:")
-            print(MALATK)
+            print(enemyDict["Man-at-Legs"]["Damage"])
             print("---")
             time.sleep(1.5)
             print("M-A-L ATK roll:")
-            print(MALHIT)
+            print(enemyDict["Man-at-Legs"]["ATK Mod."])
             print("---")
             time.sleep(1.5)
             print("Gale's AC:")
@@ -217,8 +217,8 @@ if CHA == "Gale":
             print("---")
             time.sleep(1.5)
             print("Gale's health post math crap:")
-            if MALHIT >= partyDictionary["Gale"]["AC"]:
-                partyDictionary["Gale"]["Health"] -= MALATK
+            if enemyDict["Man-at-Legs"]["ATK Mod."] >= partyDictionary["Gale"]["AC"]:
+                partyDictionary["Gale"]["Health"] -= enemyDict["Man-at-Legs"]["Damage"]
                 print(partyDictionary["Gale"]["Health"])
             else:
                 print("ATK did not hit")
@@ -229,109 +229,3 @@ if CHA == "Gale":
                 print("Gale died, you lose.")
                 break
 
-#Gale VS Creeping Flower boi
-if CHA == "Gale":
-    if ENM == "Creeping Chrysanthemum":
-        while True:
-            time.sleep(1.5)
-            print("Gale's damage, if he hits:")
-            print(GLATK)
-            print("---")
-            time.sleep(1.5)
-            print("Gale's ATK roll:")
-            print(GLHIT)
-            print("---")
-            time.sleep(1.5)
-            print("Creeping Chrysanthemum AC:")
-            print(enemyDict["Creeping Chrysanthemum"]["AC"])
-            print("---")
-            time.sleep(1.5)
-            print("Creeping Chrysanthemum health post math crap:")
-            if GLHIT >= enemyDict["Creeping Chrysanthemum"]["AC"]:
-                enemyDict["Creeping Chrysanthemum"]["Health"] -= GLATK
-                print(enemyDict["Creeping Chrysanthemum"]["Health"])
-            else:
-                print("ATK did not hit")
-            print("                 ")
-            time.sleep(1.5)
-            print("                 ")
-            print("Creeping Chrysanthemum damage, if it hits:")
-            print(CCATK)
-            print("---")
-            time.sleep(1.5)
-            print("Creeping Chrysanthemum ATK roll:")
-            print(CCHIT)
-            print("---")
-            time.sleep(1.5)
-            print("Gale's AC:")
-            print(partyDictionary["Gale"]["AC"])
-            print("---")
-            time.sleep(1.5)
-            print("Gale's health post math crap:")
-            if MALHIT >= partyDictionary["Gale"]["AC"]:
-                partyDictionary["Gale"]["Health"] -= CCATK
-                print(partyDictionary["Gale"]["Health"])
-            else:
-                print("ATK did not hit")
-            if enemyDict["Creeping Chrysanthemum"]["Health"] <= 0:
-                print("The Creeping Chrysanthemum died, YOU WIN!")
-                break
-            elif partyDictionary["Gale"]["Health"] <= 0:
-                print("Gale died, you lose.")
-                break
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#dam0 = int(enemyDict["Man-at-Legs"]["Health"] - atk0)
-#dam1 = int(partyDictionary["Gale"]["Health"] - atk1)
-#print("Gale's damage, if he hits:")
-#print()
-#print("---")
-#print("Gale's ATK roll:")
-#print()
-#print("---")
-#print("Man-At-Legs AC:")
-#print(enemyDict["Man-at-Legs"]["AC"])
-#print("---")
-#print("Man-At-Legs health post math crap:")
-#if  >= enemyDict["Man-at-Legs"]["AC"]:
-#    print()
-#else:
-#    print("womp womp, no hit")
-
-#print("                 ")
-#print("                 ")
-#print("The Man-At-Legs' damage, if it hits:")
-#print()
-#print("---")
-#print("The Man-At-Legs' ATK roll:")
-#print()
-#print("---")
-#print("Gale's AC:")
-#print(partyDictionary["Gale"]["AC"])
-#print("---")
-#print("Gale's health post math crap:")
-#if  >= partyDictionary["Gale"]["AC"]:
-#    print()
-#else:
-#    print("womp womp, no hit")
