@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="had epif=inany&#10;fix tomowwor" />
+    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="Good and done">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -298,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729019254794</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Good and done">
+      <option name="closed" value="true" />
+      <created>1729103297500</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1729103297500</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -324,6 +334,7 @@
     <MESSAGE value="did basic S3 combat - make neater/better later" />
     <MESSAGE value="Organized - Did Gale vs. MAL" />
     <MESSAGE value="had epif=inany&#10;fix tomowwor" />
-    <option name="LAST_COMMIT_MESSAGE" value="had epif=inany&#10;fix tomowwor" />
+    <MESSAGE value="Good and done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Good and done" />
   </component>
 </project>
