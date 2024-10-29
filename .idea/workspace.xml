@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="Finished HW8">
-      <change afterPath="$PROJECT_DIR$/HW9.py" afterDir="false" />
+    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="Finished HW9">
+      <change afterPath="$PROJECT_DIR$/HW10.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +53,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.HW1.executor": "Run",
+    "Python.HW10.executor": "Run",
     "Python.HW2.executor": "Run",
     "Python.HW3.executor": "Run",
     "Python.HW4.executor": "Run",
@@ -319,7 +320,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729709485895</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Finished HW9">
+      <option name="closed" value="true" />
+      <created>1729795215031</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1729795215031</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -347,6 +356,7 @@
     <MESSAGE value="had epif=inany&#10;fix tomowwor" />
     <MESSAGE value="Good and done" />
     <MESSAGE value="Finished HW8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished HW8" />
+    <MESSAGE value="Finished HW9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished HW9" />
   </component>
 </project>
