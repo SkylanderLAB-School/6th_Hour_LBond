@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="Finished HW9">
-      <change afterPath="$PROJECT_DIR$/HW10.py" afterDir="false" />
+    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="Finished HW10">
+      <change afterPath="$PROJECT_DIR$/HW11.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -328,11 +328,18 @@
       <option name="project" value="LOCAL" />
       <updated>1729795215031</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Finished HW10">
+      <option name="closed" value="true" />
+      <created>1730228016662</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1730228016662</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial Commit" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added HW1" />
     <MESSAGE value="Finished the assignment" />
@@ -357,6 +364,7 @@
     <MESSAGE value="Good and done" />
     <MESSAGE value="Finished HW8" />
     <MESSAGE value="Finished HW9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished HW9" />
+    <MESSAGE value="Finished HW10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished HW10" />
   </component>
 </project>
