@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="Finished HW10">
-      <change afterPath="$PROJECT_DIR$/HW11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="Started HW11 - fix it" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +51,7 @@
   "keyToString": {
     "Python.HW1.executor": "Run",
     "Python.HW10.executor": "Run",
+    "Python.HW11.executor": "Run",
     "Python.HW2.executor": "Run",
     "Python.HW3.executor": "Run",
     "Python.HW4.executor": "Run",
@@ -336,11 +334,18 @@
       <option name="project" value="LOCAL" />
       <updated>1730228016662</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Started HW11 - fix it">
+      <option name="closed" value="true" />
+      <created>1730228863278</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1730228863278</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit" />
     <MESSAGE value="Added HW1" />
     <MESSAGE value="Finished the assignment" />
     <MESSAGE value="Finished HW3, and did it mostly correctly" />
@@ -365,6 +370,7 @@
     <MESSAGE value="Finished HW8" />
     <MESSAGE value="Finished HW9" />
     <MESSAGE value="Finished HW10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished HW10" />
+    <MESSAGE value="Started HW11 - fix it" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started HW11 - fix it" />
   </component>
 </project>
