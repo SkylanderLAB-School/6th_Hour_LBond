@@ -36,7 +36,7 @@ while j >= 1:
 while True:
     time.sleep(1)
     num = int(input("Gimme a number: "))
-    if num > 0:
+    if num != 0:
         print("WRONG")
         continue
     else:

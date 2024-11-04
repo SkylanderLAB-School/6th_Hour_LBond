@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="Made Playground better - added NG+ - made a backup of the original" />
+    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="fixed some crap in the PG" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -358,11 +358,18 @@
       <option name="project" value="LOCAL" />
       <updated>1730401611231</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="fixed some crap in the PG">
+      <option name="closed" value="true" />
+      <created>1730485865756</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1730485865756</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finished HW3, and did it mostly correctly" />
     <MESSAGE value="Began, The Playground..." />
     <MESSAGE value="learned what IF does" />
     <MESSAGE value="hfiaw;hgiufhwe" />
@@ -387,6 +394,7 @@
     <MESSAGE value="Started HW11 - fix it" />
     <MESSAGE value="Finished the fizzing buzz" />
     <MESSAGE value="Made Playground better - added NG+ - made a backup of the original" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made Playground better - added NG+ - made a backup of the original" />
+    <MESSAGE value="fixed some crap in the PG" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed some crap in the PG" />
   </component>
 </project>
