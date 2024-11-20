@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="started scenario 4&#10;need to finish HW13">
-      <change afterPath="$PROJECT_DIR$/Scenario 4 - 2.py" afterDir="false" />
+    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="restared scenario 4&#10;need to finish HW13">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenario 4 - 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scenario 4 - 2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scenario 4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scenario 4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -406,11 +406,18 @@
       <option name="project" value="LOCAL" />
       <updated>1731960394943</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="restared scenario 4&#10;need to finish HW13">
+      <option name="closed" value="true" />
+      <created>1732046761664</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1732046761664</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Started Scenario 1 (I should replay Pikmin 2)" />
     <MESSAGE value="Finished Scenario 1." />
     <MESSAGE value="Finished Scenario 2." />
     <MESSAGE value="Finished HW5." />
@@ -435,6 +442,7 @@
     <MESSAGE value="did HW12" />
     <MESSAGE value="started HW13&#10;did HW14" />
     <MESSAGE value="started scenario 4&#10;need to finish HW13" />
-    <option name="LAST_COMMIT_MESSAGE" value="started scenario 4&#10;need to finish HW13" />
+    <MESSAGE value="restared scenario 4&#10;need to finish HW13" />
+    <option name="LAST_COMMIT_MESSAGE" value="restared scenario 4&#10;need to finish HW13" />
   </component>
 </project>

@@ -19,13 +19,13 @@
 #Step 2c. If rating number is valid, add to total
 #Step 3. Find and print the average
 
-players = int(input("How many players are playing?: "))
-total = int(0)
-while players in range(1,16):
-    rating = int(input("What is your rating?: "))
-    if 0 < rating > 5:
+players = int(input("How many people are playing: "))
+total = int()
+for players in range(1, players + 1):
+    rating = int(input("Please do a rating from 1-5: "))
+    if rating >= 1 and rating <=5:
+        total += rating
+    else:
         print("error")
         break
-    else:
-        added = total + rating
-#if the rating has been added to the total an equal number of times to the players, then do average
+print(total/players)
