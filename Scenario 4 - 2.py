@@ -16,7 +16,7 @@ p14_rating = int()
 p15_rating = int()
 p16_rating = int()
 
-if players >= 1 and players <= 5:
+if players >= 1 and players <= 16:
     p1_rating = int(input("Player 1, how would you rate this model from 1-5?: "))
     print("You give them a:", p1_rating)
     if players >=2:
@@ -71,6 +71,6 @@ elif players > 16:
 
 if players >= 1 and players <= 16:
     print("Now, for the average score!")
-    ratesum = p1_rating + p2_rating + p3_rating + p4_rating + p5_rating + p6_rating + p7_rating + p8_rating + p9_rating + p5_rating + p1_rating + p2_rating + p3_rating + p4_rating + p5_rating
+    ratesum = p1_rating + p2_rating + p3_rating + p4_rating + p5_rating + p6_rating + p7_rating + p8_rating + p9_rating + p10_rating + p11_rating + p12_rating + p13_rating + p14_rating + p15_rating + p16_rating
     averate = ratesum/players
     print(averate)
