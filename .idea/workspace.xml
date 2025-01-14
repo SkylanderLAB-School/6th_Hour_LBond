@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="&quot;finished&quot; scenario 4&#10;need to finish 4-2&#10;need help on HW13">
+    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="finished Scenario 4&#10;4-2 IS NOT AN ACTUAL ASSIGNMENT THINGY&#10;Finished HW13&#10;Redid HW14">
+      <change afterPath="$PROJECT_DIR$/HW15.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW13.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW13.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW14.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW14.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scenario 4 - 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scenario 4 - 2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +58,7 @@
     "Python.HW12.executor": "Run",
     "Python.HW13.executor": "Run",
     "Python.HW14.executor": "Run",
+    "Python.HW15.executor": "Run",
     "Python.HW2.executor": "Run",
     "Python.HW3.executor": "Run",
     "Python.HW4.executor": "Run",
@@ -77,13 +76,14 @@
     "Python.Scenario 4 - 2.executor": "Run",
     "Python.Scenario 4.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master"
   }
 }]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-ce3d9afa04ac-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.20224.347" />
+        <option value="bundled-python-sdk-495700d161d3-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.220" />
       </set>
     </attachedChunks>
   </component>
@@ -424,11 +424,18 @@
       <option name="project" value="LOCAL" />
       <updated>1732133154906</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="finished Scenario 4&#10;4-2 IS NOT AN ACTUAL ASSIGNMENT THINGY&#10;Finished HW13&#10;Redid HW14">
+      <option name="closed" value="true" />
+      <created>1732218589505</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1732218589505</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finished Scenario 2." />
     <MESSAGE value="Finished HW5." />
     <MESSAGE value="Finished HW6." />
     <MESSAGE value="Added REPLAYABILITY!" />
@@ -453,6 +460,7 @@
     <MESSAGE value="started scenario 4&#10;need to finish HW13" />
     <MESSAGE value="restared scenario 4&#10;need to finish HW13" />
     <MESSAGE value="&quot;finished&quot; scenario 4&#10;need to finish 4-2&#10;need help on HW13" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;finished&quot; scenario 4&#10;need to finish 4-2&#10;need help on HW13" />
+    <MESSAGE value="finished Scenario 4&#10;4-2 IS NOT AN ACTUAL ASSIGNMENT THINGY&#10;Finished HW13&#10;Redid HW14" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished Scenario 4&#10;4-2 IS NOT AN ACTUAL ASSIGNMENT THINGY&#10;Finished HW13&#10;Redid HW14" />
   </component>
 </project>
