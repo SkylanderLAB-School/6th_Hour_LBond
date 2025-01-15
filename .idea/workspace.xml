@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="finished Scenario 4&#10;4-2 IS NOT AN ACTUAL ASSIGNMENT THINGY&#10;Finished HW13&#10;Redid HW14">
-      <change afterPath="$PROJECT_DIR$/HW15.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW16.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW15.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW15.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +60,7 @@
     "Python.HW13.executor": "Run",
     "Python.HW14.executor": "Run",
     "Python.HW15.executor": "Run",
+    "Python.HW16.executor": "Run",
     "Python.HW2.executor": "Run",
     "Python.HW3.executor": "Run",
     "Python.HW4.executor": "Run",

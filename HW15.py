@@ -18,31 +18,22 @@
 def hello_world():
     print("Hello World!")
 
-hello_world()
-
-
 
 def average(a, b, c):
     add = int(a + b + c)
     print(add / 3)
 
-average(2,2,2)
-
 
 def animal_list(*animal):
     print("The third animal is:", animal[2])
 
-animal_list("Cow", "Penguin", "Axolotl", "Crocodile", "Octopus")
-
 
 def num_loop(a):
     for i in range(1, a + 1):
-        print("Communism")
-
-num_loop(3)
+        print(i)
 
 
 hello_world()
 average(7,2,8)
 animal_list("Cow", "Penguin", "Octopus", "Crocodile", "Axolotl")
-num_loop(427)
+num_loop(7)
