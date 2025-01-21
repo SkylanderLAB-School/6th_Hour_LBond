@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="finished Scenario 4&#10;4-2 IS NOT AN ACTUAL ASSIGNMENT THINGY&#10;Finished HW13&#10;Redid HW14">
-      <change afterPath="$PROJECT_DIR$/HW16.py" afterDir="false" />
+    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="Fixed HW15&#10;Did HW16">
+      <change afterPath="$PROJECT_DIR$/HW17.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW15.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW15.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,37 +50,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.HW1.executor": "Run",
-    "Python.HW10.executor": "Run",
-    "Python.HW11.executor": "Run",
-    "Python.HW12.executor": "Run",
-    "Python.HW13.executor": "Run",
-    "Python.HW14.executor": "Run",
-    "Python.HW15.executor": "Run",
-    "Python.HW16.executor": "Run",
-    "Python.HW2.executor": "Run",
-    "Python.HW3.executor": "Run",
-    "Python.HW4.executor": "Run",
-    "Python.HW5.executor": "Run",
-    "Python.HW6.executor": "Run",
-    "Python.HW7-2.executor": "Run",
-    "Python.HW7.executor": "Run",
-    "Python.HW8.executor": "Run",
-    "Python.HW9.executor": "Run",
-    "Python.Hello_world.executor": "Run",
-    "Python.Playground.executor": "Run",
-    "Python.Scenario 1.executor": "Run",
-    "Python.Scenario 2.executor": "Run",
-    "Python.Scenario 3.executor": "Run",
-    "Python.Scenario 4 - 2.executor": "Run",
-    "Python.Scenario 4.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.HW1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW12.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW13.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW14.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW15.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW16.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW7-2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Hello_world.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Playground.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Scenario 1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Scenario 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Scenario 3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Scenario 4 - 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Scenario 4.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -434,11 +433,18 @@
       <option name="project" value="LOCAL" />
       <updated>1732218589505</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Fixed HW15&#10;Did HW16">
+      <option name="closed" value="true" />
+      <created>1736970703819</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1736970703819</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finished HW5." />
     <MESSAGE value="Finished HW6." />
     <MESSAGE value="Added REPLAYABILITY!" />
     <MESSAGE value="Always do things the lazy way." />
@@ -463,6 +469,7 @@
     <MESSAGE value="restared scenario 4&#10;need to finish HW13" />
     <MESSAGE value="&quot;finished&quot; scenario 4&#10;need to finish 4-2&#10;need help on HW13" />
     <MESSAGE value="finished Scenario 4&#10;4-2 IS NOT AN ACTUAL ASSIGNMENT THINGY&#10;Finished HW13&#10;Redid HW14" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished Scenario 4&#10;4-2 IS NOT AN ACTUAL ASSIGNMENT THINGY&#10;Finished HW13&#10;Redid HW14" />
+    <MESSAGE value="Fixed HW15&#10;Did HW16" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed HW15&#10;Did HW16" />
   </component>
 </project>
