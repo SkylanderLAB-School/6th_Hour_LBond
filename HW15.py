@@ -33,7 +33,3 @@ def num_loop(a):
         print(i)
 
 
-hello_world()
-average(7,2,8)
-animal_list("Cow", "Penguin", "Octopus", "Crocodile", "Axolotl")
-num_loop(7)
