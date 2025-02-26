@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="Scenario 7 has been de-logan'd">
-      <change afterPath="$PROJECT_DIR$/HW20.py" afterDir="false" />
+    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="did HW20">
+      <change afterPath="$PROJECT_DIR$/Playground-2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +74,7 @@
     "Python.HW8.executor": "Run",
     "Python.HW9.executor": "Run",
     "Python.Hello_world.executor": "Run",
+    "Python.Playground-2.executor": "Run",
     "Python.Playground.executor": "Run",
     "Python.Scenario 1.executor": "Run",
     "Python.Scenario 2.executor": "Run",
@@ -103,14 +104,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723833535741</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1723834059597</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1723834059597</updated>
     </task>
     <task id="LOCAL-00002" summary="Added HW1">
       <option name="closed" value="true" />
@@ -496,11 +489,18 @@
       <option name="project" value="LOCAL" />
       <updated>1738697388669</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="did HW20">
+      <option name="closed" value="true" />
+      <created>1740081829037</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1740081829037</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="did basic S3 combat - make neater/better later" />
     <MESSAGE value="Organized - Did Gale vs. MAL" />
     <MESSAGE value="had epif=inany&#10;fix tomowwor" />
     <MESSAGE value="Good and done" />
@@ -525,6 +525,7 @@
     <MESSAGE value="Finished HW19" />
     <MESSAGE value="Did Scenario 6 and 7" />
     <MESSAGE value="Scenario 7 has been de-logan'd" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scenario 7 has been de-logan'd" />
+    <MESSAGE value="did HW20" />
+    <option name="LAST_COMMIT_MESSAGE" value="did HW20" />
   </component>
 </project>
