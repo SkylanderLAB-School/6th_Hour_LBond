@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="did HW20">
-      <change afterPath="$PROJECT_DIR$/Playground-2.py" afterDir="false" />
+    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="worked on Playground 2">
+      <change afterPath="$PROJECT_DIR$/AI Playground.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +52,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.AI Playground.executor": "Run",
     "Python.HW1.executor": "Run",
     "Python.HW10.executor": "Run",
     "Python.HW11.executor": "Run",
@@ -104,14 +105,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723833535741</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Added HW1">
-      <option name="closed" value="true" />
-      <created>1724093654001</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1724093654001</updated>
     </task>
     <task id="LOCAL-00003" summary="Finished the assignment">
       <option name="closed" value="true" />
@@ -497,11 +490,18 @@
       <option name="project" value="LOCAL" />
       <updated>1740081829037</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="worked on Playground 2">
+      <option name="closed" value="true" />
+      <created>1740600473667</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1740600473667</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Organized - Did Gale vs. MAL" />
     <MESSAGE value="had epif=inany&#10;fix tomowwor" />
     <MESSAGE value="Good and done" />
     <MESSAGE value="Finished HW8" />
@@ -526,6 +526,7 @@
     <MESSAGE value="Did Scenario 6 and 7" />
     <MESSAGE value="Scenario 7 has been de-logan'd" />
     <MESSAGE value="did HW20" />
-    <option name="LAST_COMMIT_MESSAGE" value="did HW20" />
+    <MESSAGE value="worked on Playground 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="worked on Playground 2" />
   </component>
 </project>
