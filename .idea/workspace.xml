@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="Did HW21">
-      <change afterPath="$PROJECT_DIR$/HW22.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="Did HW22">
+      <change beforePath="$PROJECT_DIR$/HW22.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW22.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,14 +106,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723833535741</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Began, The Playground...">
-      <option name="closed" value="true" />
-      <created>1725476766442</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1725476766442</updated>
     </task>
     <task id="LOCAL-00006" summary="learned what IF does">
       <option name="closed" value="true" />
@@ -500,11 +491,18 @@
       <option name="project" value="LOCAL" />
       <updated>1741031126770</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Did HW22">
+      <option name="closed" value="true" />
+      <created>1741290949890</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1741290949890</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finished HW8" />
     <MESSAGE value="Finished HW9" />
     <MESSAGE value="Finished HW10" />
     <MESSAGE value="Started HW11 - fix it" />
@@ -529,6 +527,7 @@
     <MESSAGE value="worked on Playground 2" />
     <MESSAGE value="literally silksong" />
     <MESSAGE value="Did HW21" />
-    <option name="LAST_COMMIT_MESSAGE" value="Did HW21" />
+    <MESSAGE value="Did HW22" />
+    <option name="LAST_COMMIT_MESSAGE" value="Did HW22" />
   </component>
 </project>

@@ -20,7 +20,7 @@ AeonianButterfly = Store_Item(5, 1500, 0.7)
 #print("Shirt stock:", Shirt.stock)
 print("Dan Aykroyd Crystal Skull Vodka stock:", DanAykroydCrystalSkullVodka.stock)
 print("Aeonian Butterfly stock:", AeonianButterfly.stock)
-print("Dan Aykroyd Crystal Skull Vodka cost: $",DanAykroydCrystalSkullVodka.cost)
+print("Dan Aykroyd Crystal Sk ull Vodka cost: $",DanAykroydCrystalSkullVodka.cost)
 
 #4. Make a def function within the class that doubles the cost an item, double the cost of the second store item, and print the new cost below the original cost print statement.
 DanAykroydCrystalSkullVodka.cost_double()
