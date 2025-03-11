@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="Did HW23">
-      <change afterPath="$PROJECT_DIR$/Scenario 8.py" afterDir="false" />
+    <list default="true" id="2df17812-88f9-4b46-bc48-3de8bf645e10" name="Changes" comment="Started SC8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenario 8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scenario 8.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +85,7 @@
     "Python.Scenario 3.executor": "Run",
     "Python.Scenario 4 - 2.executor": "Run",
     "Python.Scenario 4.executor": "Run",
+    "Python.Scenario 8.executor": "Run",
     "Python.Scnario 6.executor": "Run",
     "Python.Scnario 7.executor": "Run",
     "Python.Scnario_6.executor": "Run",
@@ -108,14 +109,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723833535741</updated>
-    </task>
-    <task id="LOCAL-00007" summary="hfiaw;hgiufhwe">
-      <option name="closed" value="true" />
-      <created>1725648759249</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1725648759249</updated>
     </task>
     <task id="LOCAL-00008" summary="Did HW4, all in one day, despite missing 3 days!">
       <option name="closed" value="true" />
@@ -501,11 +494,18 @@
       <option name="project" value="LOCAL" />
       <updated>1741632447540</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Started SC8">
+      <option name="closed" value="true" />
+      <created>1741633654184</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1741633654184</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finished HW10" />
     <MESSAGE value="Started HW11 - fix it" />
     <MESSAGE value="Finished the fizzing buzz" />
     <MESSAGE value="Made Playground better - added NG+ - made a backup of the original" />
@@ -530,7 +530,8 @@
     <MESSAGE value="Did HW21" />
     <MESSAGE value="Did HW22" />
     <MESSAGE value="Did HW23" />
-    <option name="LAST_COMMIT_MESSAGE" value="Did HW23" />
+    <MESSAGE value="Started SC8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started SC8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

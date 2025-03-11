@@ -15,12 +15,12 @@ import random
 class Character:
     def __init__(self, name, species, type, health, ac, atk_mod, damage):
         self.name = name
-        self.species = name
-        self.type = name
-        self.health = name
-        self.ac = name
-        self.atk_mod = name
-        self.damage = name
+        self.species = species
+        self.type = type
+        self.health = health
+        self.ac = ac
+        self.atk_mod = atk_mod
+        self.damage = damage
 
 
 
@@ -29,7 +29,7 @@ class Character:
 #Shadowheart - Who?
 #Gale - Gale
 #Astarion - Interview with a Vampire
-#Mr. Magic Man
+
 
 
 
@@ -37,17 +37,54 @@ class Character:
 #Creeping Chrysanthemum
 #Gatling Groink
 #Careening Dirigibug
-#Man-At-Legs
+#Man-at-Legs
 #Titan Dweevil
 
 
-Alien = Character()
-Dead = Character()
-Magic = Character()
-Vampire = Character()
-Tarnished = Character()
-Flower = Character()
-GunFish = Character()
-Blimp = Character()
-GunSpider = Character()
-Louis = Character()
+Laezel = Character("LaeZel", "Githyanki", "Fighter", 12, 17, 1, random.randint(2,12) + 3)
+SHeart = Character("Shadowheart", "Half-Elf", "Cleric", 10, 14, 2, random.randint(1,6) + 2)
+Gale = Character("Gale", "Human", "Wizard", 8, 14, random.randint(1,20) + 4, random.randint(1,10))
+Astarion = Character("Astarion", "High Elf", "Rouge", 10, 14, 3, random.randint(1,6) + 4)
+
+Creeping = Character("Creeping Chrysanthemum", "Taraxacum rovinia", "Chrysanthemum", 16, 17, 4, 13)
+Groink = Character("Gatling Groink", "Megaplod calibersi", "Unknown", 15, 17, 3, 13)
+Dirigibug = Character("Careening Dirigibug", "Flotillium circusmaximus", "Dirigibug", 10, 7, 1, 13)
+MAL = Character("Man-at-Legs", "Pseudoarachnia navaronia", "Arachnorb", 20, 15, random.randint(1,20) + 5, 13)
+Dweevil = Character("Titan Dweevil", "Mandarachnia gargantium", "Dweevil", 25, 12, 2, 13)
+
+
+CHA = input("Who is attacking?: ")
+ENM = input("What is being attacked?: ")
+
+
+
+if random.randint(1,20) + Gale.atk_mod >= MAL.ac:
+    MAL.health -= Gale.damage
+
+
+
+'''
+if random.randint(1,20) + partyDict["Shadowheart"]["AtkMod"] >= enemyDict["Goblin"]["AC"]:
+#   We hit! Deal Damage (subtract Party Damage Roll from HP)
+    enemyDict["Goblin"]["Health"] -= partyDict["Shadowheart"]["Damage"]
+    #Check to see if enemy is dead
+    if enemyDict["Goblin"]["Health"] <= 0:
+        print("Gobbo was hit! Gobbo is dead!")
+        exit()
+    #else, go to enemy turn
+    else:
+        print("Gobbo was hit! Gobbo is still alive!")
+#else, we miss
+else:
+    print("Shadowheart Missed!")
+
+if random.randint(1,20) + enemyDict["Goblin"]["AtkMod"] >= partyDict["Shadowheart"]["AC"]:
+    partyDict["Shadowheart"]["Health"] -= enemyDict["Goblin"]["Damage"]
+    if partyDict["Shadowheart"]["Health"] <= 0:
+        print("Gobbo hit! Shadowheart is down!")
+        exit()
+    else:
+        print("Gobbo hit! Shadowheart is alive!")
+else:
+    print("No one hit!")
+'''
