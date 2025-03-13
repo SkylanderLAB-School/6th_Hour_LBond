@@ -25,13 +25,10 @@ class Character:
 
 
 #Characters
-#LaeZel - Non-school appropriate word
-#Shadowheart - Who?
-#Gale - Gale
-#Astarion - Interview with a Vampire
-
-
-
+#LaeZel
+#Shadowheart
+#Gale
+#Astarion
 
 #Enemies
 #Creeping Chrysanthemum
@@ -52,15 +49,37 @@ Dirigibug = Character("Careening Dirigibug", "Flotillium circusmaximus", "Dirigi
 MAL = Character("Man-at-Legs", "Pseudoarachnia navaronia", "Arachnorb", 20, 15, random.randint(1,20) + 5, 13)
 Dweevil = Character("Titan Dweevil", "Mandarachnia gargantium", "Dweevil", 25, 12, 2, 13)
 
-
-CHA = input("Who is attacking?: ")
-ENM = input("What is being attacked?: ")
-
-
+print("Man-at-Legs health")
+print(MAL.health)
+print("---")
+print("Gale health")
+print(Gale.health)
+print("---")
+print("Gale is attacking!")
+print("...")
 
 if random.randint(1,20) + Gale.atk_mod >= MAL.ac:
     MAL.health -= Gale.damage
+    if MAL.health <= 0:
+        print("The Man-at-Legs was hit, and died. You Win!")
+        exit()
+    else:
+        print("The Man-at-Legs was hit, but is alive....R U N")
+else:
+    print("Gale missed...R U N")
 
+print("The Man-at-Legs is firing!")
+print("...")
+
+if random.randint(1,20) + MAL.atk_mod >= Gale.ac:
+    Gale.health -= MAL.damage
+    if Gale.health <= 0:
+        print("Gale was hit, and died. You Lose.")
+        exit()
+    else:
+        print("Gale was hit, and is alive.")
+else:
+    print("The Man-at-Legs missed, good job.")
 
 
 '''
